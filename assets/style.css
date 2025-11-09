@@ -1,0 +1,84 @@
+/* background color */
+[data-testid="stAppViewContainer"] {
+    background-color:#99ffad;
+    background-image:
+        radial-gradient(at 54% 85%, hsla(324,78%,72%,1) 0px, transparent 50%),
+        radial-gradient(at 87% 52%, hsla(177,73%,65%,1) 0px, transparent 50%),
+        radial-gradient(at 69% 59%, hsla(300,67%,70%,1) 0px, transparent 50%),
+        radial-gradient(at 2% 76%, rgb(132, 74, 247) 0px, transparent 50%),
+        radial-gradient(at 86% 63%, rgb(236, 83, 252) 0px, transparent 50%),
+        radial-gradient(at 74% 75%, hsla(350,60%,65%,1) 0px, transparent 50%),
+        radial-gradient(at 87% 26%, hsla(330,90%,79%,1) 0px, transparent 50%);
+}
+
+/*
+background-color:#99ffbd;
+background-image:
+    radial-gradient(at 17% 35%, hsla(81,76%,73%,1) 0px, transparent 50%),
+    radial-gradient(at 18% 45%, hsla(10,71%,63%,1) 0px, transparent 50%),
+    radial-gradient(at 23% 41%, hsla(11,77%,64%,1) 0px, transparent 50%),
+    radial-gradient(at 62% 12%, hsla(297,70%,75%,1) 0px, transparent 50%),
+    radial-gradient(at 28% 77%, hsla(63,63%,62%,1) 0px, transparent 50%),
+    radial-gradient(at 74% 51%, hsla(43,74%,78%,1) 0px, transparent 50%),
+    radial-gradient(at 64% 35%, hsla(211,65%,78%,1) 0px, transparent 50%);
+
+background-color:#99ffd5;
+background-image:
+    radial-gradient(at 63% 22%, hsla(245,90%,68%,1) 0px, transparent 50%),
+    radial-gradient(at 1% 9%, hsla(235,61%,77%,1) 0px, transparent 50%),
+    radial-gradient(at 96% 37%, hsla(45,89%,64%,1) 0px, transparent 50%),
+    radial-gradient(at 48% 30%, hsla(242,68%,77%,1) 0px, transparent 50%),
+    radial-gradient(at 86% 50%, hsla(251,60%,68%,1) 0px, transparent 50%),
+    radial-gradient(at 20% 29%, hsla(187,76%,66%,1) 0px, transparent 50%),
+    radial-gradient(at 27% 25%, hsla(102,97%,76%,1) 0px, transparent 50%);
+*/
+
+/* video widgets zoom-in animation on hover */
+video {
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    border-radius: 8px !important;
+}
+video:hover {
+    transform: scale(1.1);
+}
+
+/* file uploader */
+[data-testid="stFileUploader"] {
+    position: relative !important;
+    min-height: 70px !important;              /* min height */
+    max-width: 350px !important;              /* max width */
+    margin: 0 auto !important;                /* centered display */
+    border: 4px dashed #EAC6FA !important;  /* dotted border */
+    border-radius: 8px !important;            /* rounded corners */
+    background-color: #FED9FF !important;   /* background color */
+}
+
+/* on hover */
+[data-testid="stFileUploader"]:hover {
+    border-color: #007bff !important;
+    background-color: #f0f8ff !important;
+}
+
+[data-testid='stFileUploaderDropzoneInstructions'] > div > span {
+    display: none;
+}
+[data-testid='stFileUploaderDropzoneInstructions'] > div::before {
+    content: 'Перетащите сюда видео';
+}
+
+[data-testid='stBaseButton-secondary'] {
+    text-indent: -9999px;
+    line-height: 0;
+}
+
+[data-testid='stBaseButton-secondary']::after {
+    line-height: initial;
+    content: "или кликните";
+    text-indent: 0;
+}
+
+/* */
+.st-key-my_blue_container{
+                background: rgba(100, 100, 200, 0.3);
+            }

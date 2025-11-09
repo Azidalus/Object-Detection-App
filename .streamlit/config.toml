@@ -1,0 +1,6 @@
+[theme]
+backgroundColor="transparent"
+secondaryBackgroundColor = "#9bd0e3ff"
+baseRadius="full"
+primaryColor="slateBlue"
+headingFont = "sans-serif"

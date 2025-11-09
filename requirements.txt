@@ -1,0 +1,9 @@
+streamlit
+supervision==0.25.1
+ultralytics
+numpy
+opencv-python
+streamlit-antd-components
+streamlit-shadcn-ui
+streamlit-extras
+streamlit-lottie
